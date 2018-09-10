@@ -15,6 +15,13 @@
 		274773B4214600BF009CE5F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 274773B3214600BF009CE5F0 /* main.m */; };
 		274773BE214600BF009CE5F0 /* ChangeIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274773BD214600BF009CE5F0 /* ChangeIconTests.m */; };
 		274773C9214600BF009CE5F0 /* ChangeIconUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274773C8214600BF009CE5F0 /* ChangeIconUITests.m */; };
+		274773DD21460589009CE5F0 /* 白Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274773DB21460588009CE5F0 /* 白Icon-Small@2x.png */; };
+		274773DE21460589009CE5F0 /* 白Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274773DC21460589009CE5F0 /* 白Icon-Small@3x.png */; };
+		274773E1214605B9009CE5F0 /* 橙Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274773DF214605B9009CE5F0 /* 橙Icon-Small@3x.png */; };
+		274773E2214605B9009CE5F0 /* 橙Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274773E0214605B9009CE5F0 /* 橙Icon-Small@2x.png */; };
+		274773E5214605CF009CE5F0 /* 红Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274773E3214605CF009CE5F0 /* 红Icon-Small@3x.png */; };
+		274773E6214605CF009CE5F0 /* 红Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274773E4214605CF009CE5F0 /* 红Icon-Small@2x.png */; };
+		274773E921460B7B009CE5F0 /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 274773E821460B7B009CE5F0 /* UIViewController+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,14 @@
 		274773C4214600BF009CE5F0 /* ChangeIconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeIconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		274773C8214600BF009CE5F0 /* ChangeIconUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeIconUITests.m; sourceTree = "<group>"; };
 		274773CA214600BF009CE5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274773DB21460588009CE5F0 /* 白Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白Icon-Small@2x.png"; sourceTree = "<group>"; };
+		274773DC21460589009CE5F0 /* 白Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白Icon-Small@3x.png"; sourceTree = "<group>"; };
+		274773DF214605B9009CE5F0 /* 橙Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "橙Icon-Small@3x.png"; sourceTree = "<group>"; };
+		274773E0214605B9009CE5F0 /* 橙Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "橙Icon-Small@2x.png"; sourceTree = "<group>"; };
+		274773E3214605CF009CE5F0 /* 红Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红Icon-Small@3x.png"; sourceTree = "<group>"; };
+		274773E4214605CF009CE5F0 /* 红Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红Icon-Small@2x.png"; sourceTree = "<group>"; };
+		274773E721460B7B009CE5F0 /* UIViewController+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Category.h"; sourceTree = "<group>"; };
+		274773E821460B7B009CE5F0 /* UIViewController+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,9 @@
 				274773A5214600BD009CE5F0 /* AppDelegate.m */,
 				274773A7214600BD009CE5F0 /* ViewController.h */,
 				274773A8214600BD009CE5F0 /* ViewController.m */,
+				274773E721460B7B009CE5F0 /* UIViewController+Category.h */,
+				274773E821460B7B009CE5F0 /* UIViewController+Category.m */,
+				274773D621460512009CE5F0 /* Icon */,
 				274773AA214600BD009CE5F0 /* Main.storyboard */,
 				274773AD214600BF009CE5F0 /* Assets.xcassets */,
 				274773AF214600BF009CE5F0 /* LaunchScreen.storyboard */,
@@ -130,6 +148,19 @@
 				274773CA214600BF009CE5F0 /* Info.plist */,
 			);
 			path = ChangeIconUITests;
+			sourceTree = "<group>";
+		};
+		274773D621460512009CE5F0 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				274773DB21460588009CE5F0 /* 白Icon-Small@2x.png */,
+				274773DC21460589009CE5F0 /* 白Icon-Small@3x.png */,
+				274773E0214605B9009CE5F0 /* 橙Icon-Small@2x.png */,
+				274773DF214605B9009CE5F0 /* 橙Icon-Small@3x.png */,
+				274773E4214605CF009CE5F0 /* 红Icon-Small@2x.png */,
+				274773E3214605CF009CE5F0 /* 红Icon-Small@3x.png */,
+			);
+			path = Icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +266,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274773E1214605B9009CE5F0 /* 橙Icon-Small@3x.png in Resources */,
 				274773B1214600BF009CE5F0 /* LaunchScreen.storyboard in Resources */,
 				274773AE214600BF009CE5F0 /* Assets.xcassets in Resources */,
+				274773E6214605CF009CE5F0 /* 红Icon-Small@2x.png in Resources */,
+				274773DD21460589009CE5F0 /* 白Icon-Small@2x.png in Resources */,
+				274773DE21460589009CE5F0 /* 白Icon-Small@3x.png in Resources */,
 				274773AC214600BD009CE5F0 /* Main.storyboard in Resources */,
+				274773E5214605CF009CE5F0 /* 红Icon-Small@3x.png in Resources */,
+				274773E2214605B9009CE5F0 /* 橙Icon-Small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274773E921460B7B009CE5F0 /* UIViewController+Category.m in Sources */,
 				274773A9214600BD009CE5F0 /* ViewController.m in Sources */,
 				274773B4214600BF009CE5F0 /* main.m in Sources */,
 				274773A6214600BD009CE5F0 /* AppDelegate.m in Sources */,
